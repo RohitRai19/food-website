@@ -25,7 +25,7 @@ min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-background: url(bg.jpg);
+background: url(/Images/bg.jpg);
 background-size: cover;
 }
 .banner .content
@@ -246,7 +246,7 @@ flex-direction: column;
 } 
 .Testimonials
 {
-    background: url(bg2.jpg);
+    background: url(/Images/bg2.jpg);
     background-size: cover;
 }
 .white  .titleText,
@@ -310,9 +310,9 @@ flex-direction: column;
     font-weight: 600;
 }
 
-.Contact
+/* .Contact
 {
-    background: url(con4.jpg);
+    background: url(/Images/con4.jpg);
     background-size: cover;
 }
 .ContactForm
@@ -380,7 +380,131 @@ flex-direction: column;
     color: #ff0157;
     font-weight: 500;
     text-decoration: none;
+} */
+
+.container{
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    padding: 8%;
+    flex-wrap: wrap;
+
 }
+
+
+
+.side1{
+    /* display: flex; */
+    /* border: 2px solid rebeccapurple; */
+    width: 100%;
+    padding: 20px;
+    flex: 0 0 49%;
+    margin: 1% 0;
+    box-shadow: 0px 0px 10px 0px #767474;
+}
+
+.side2{
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    flex:0 0 40%;
+    margin: 0%;
+    background-color: #1a7d95eb;
+    color: whitesmoke;
+    padding: 20px;
+
+}
+
+.email{
+    width: 30%;
+    height: 29px;
+    margin-right: 12px;
+    padding: 10px;
+}
+    
+.side1   h1{
+    margin-bottom: 30px;
+
+}
+
+#sub{
+    margin-top: 20px;
+    height: 29px;
+    padding: 10px;
+    width: 64%;
+}
+#int{
+    margin-top: 19px;
+    width: 64%;
+    height: 102px;
+    padding: 10px;
+}
+#btn{
+    margin-top: 20px;
+    font-size: small;
+    height: 35px;
+    width: 30%;
+    background-color: #2dd5ffcf;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+textarea{
+    display: block;
+    padding: 2px;
+    resize: none;
+    margin-top: 20px;
+    width: 64%;
+    height: 107px;
+
+}
+
+.details{
+    margin-top: 2%;
+}
+.Contactspan{
+     display: block; 
+     margin: 1%; 
+     margin-top:28px ; 
+     word-wrap: break-word;
+}
+
+img {
+    position: relative;
+    top: 10px;
+    right: 7px;
+}
+
+@media screen and (max-width:638px){
+    .side1{
+        width: 100%;
+        padding: 20px;
+        flex: 0 0 100%;
+        margin: 1% 0;
+        box-shadow: 0px 0px 10px 0px #767474;
+    }
+
+    .email {
+        width: 64%;
+        height: 29px;
+        margin-right: 12px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .side2{
+        background-color: #1a7d95eb;
+    color: whitesmoke;
+    padding: 20px;
+    flex: 0 0 100%;
+    }
+
+}
+
+@media screen and (max-width: 404px) {
+
+    #btn{width: 63px;}
+  }
 
 
 @media (max-width:991px)
@@ -423,7 +547,7 @@ header .navigation li
     position: relative;
     width: 40px;
     height: 40px;
-    background: url(opt.png);
+    background: url(/Images/opt.png);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
@@ -431,7 +555,7 @@ header .navigation li
 }
 .menuToggle.active
 {
-    background: url(close.png);
+    background: url(/Images/close.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
@@ -500,6 +624,8 @@ section
 }
 
 }
+
+
 @media (max-width: 480px)
 { 
 .banner .content h2
