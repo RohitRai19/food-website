@@ -6,13 +6,8 @@
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
-/* body
-{
-    min-height: 1000px;
-} */
 
-p
-{
+p{
     font-weight: 300;
     color:#111;
 }
@@ -310,78 +305,6 @@ flex-direction: column;
     font-weight: 600;
 }
 
-/* .Contact
-{
-    background: url(/Images/con4.jpg);
-    background-size: cover;
-}
-.ContactForm
-{
-    padding: 75px 50x;
-    background: #fff;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.01);
-    max-width: 400px;
-    margin-top: 50px;
-}
-.ContactForm h3
-{
-    color: #111;
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    font-weight: 500;
-}
-.ContactForm .inputBox
-{
-   position: relative;
-   width: 100%;
-   margin-bottom: 20px;     
-}
-.ContactForm .inputBox input,
-.ContactForm .inputBox textarea
-{
-    width: 100%;
-    border: 1px solid #555;
-    padding: 13px;
-    color: #111;
-    outline: none;
-    font-size: 14px;
-    font-weight: 500;
-    resize: none;
-}
-.ContactForm .inputBox input[type="submit"]
-{
-    font-size: 1em;
-    color: #fff;
-    background: #ff0157;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
-    max-width: 100px;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-}
-.copyrightText
-{
-    padding: 8px 40px;
-    border-top: 1px solid rgba(0, 0, 0, 0.01);
-    text-align: center;
-
-}
-
-.copyrightText p
-{
-    color: #333;
-}
-.copyrightText a
-{
-    color: #ff0157;
-    font-weight: 500;
-    text-decoration: none;
-} */
-
 .container{
     display: flex;
     width: 100%;
@@ -394,8 +317,6 @@ flex-direction: column;
 
 
 .side1{
-    /* display: flex; */
-    /* border: 2px solid rebeccapurple; */
     width: 100%;
     padding: 20px;
     flex: 0 0 49%;
